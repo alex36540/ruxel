@@ -86,7 +86,7 @@ The `Rectangle` tool in this example has a value of `Option<Pos2>`. This lets us
 dragging the rectangle shape. If the value is `None`, then the user has not started drawing a rectangle.
 If the value is `Some(Pos2)`, the user is shown a shadow of the rectangle they are drawing.
 
-![rect shadow](./ruxel/images/rect_shadow.png)
+![rect shadow](./docs/images/rect_shadow.png)
 
 The second Rust specific feature that was used to increase performance was `.par_iter_mut()`. This iterator
 comes from the Rayon library, and it is a drop in replacement for `.iter_mut()`. With a little bit of 
